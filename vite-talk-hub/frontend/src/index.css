@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image: url('./assets/2148811498.jpg');
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.user-avatar {
+    width: 50px;  /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  

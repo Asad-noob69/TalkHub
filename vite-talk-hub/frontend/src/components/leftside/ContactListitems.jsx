@@ -1,3 +1,4 @@
+import React from 'react';
 import ContactItem from './ContactItem';
 import './ContactList.css';
 import pic from '/src/assets/pic.png';

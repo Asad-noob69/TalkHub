@@ -29,7 +29,7 @@ io.on('connection', (socket) => {
 
   socket.on('message', (msg) => {
     const username = users.get(socket.id);
-    io.emit('message', { username, text: msg });
+    io.emit('message', { text: msg.text, sender: username, timestamp: msg.timestamp });
   });
 
   socket.on('disconnect', () => {
